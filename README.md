@@ -1,1 +1,1 @@
-# example-resilience4j
+# Demonstração no uso do resilience4j com spring boot
