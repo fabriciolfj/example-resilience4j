@@ -1,0 +1,14 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+resilience4j:
+  retry:
+    instances:
+      intervalFunctionExponentialExample:
+        enableExponentialBackoff: true
+        exponentialBackoffMultiplier: 2
+        maxRetryAttempts: 6
+        waitDuration: 1s
